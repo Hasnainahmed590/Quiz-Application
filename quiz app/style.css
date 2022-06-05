@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #5e6c7a;
+}
+.quizmain{
+    background-color: #5e6c7a;
+}
+
+
+h2{
+    text-align: center;
+    margin: 20px 0;
+  box-shadow: 1px 5px 5px 2px black;
+  height: 50px;
+}
+.quizdetails{
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 8px;
+    border-spacing: 90px;
+    background-color: #bdc3c7 ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+.quizdetails h3{
+    background-color: #bdc3c7 ;
+    
+}
+.quizinformation input{
+    width: 500px;
+    height: 40px;
+    display: flex;
+    background-color: #bdc3c7  ;
+    text-align: center;
+}
+.quizinformation{
+    margin-top: 20px;
+    background-color: #bdc3c7  ;
+}
+.bt0n{
+    background-color: #bdc3c7;
+    margin-top: 40px;
+    border: none;
+    text-decoration: none;
+    cursor: grab;
+} 
+/* .bt0n input{
+    margin-top: 20px;
+    width: 20%;
+    height: 20px;
+    cursor: grab;
+    border: none; */
+    /* background-color: rgb(93, 93, 248);
+    box-shadow: 1px 1px 1px 1px rgb(65, 65, 248); */
+
+.bt0n input:hover{
+    background-color: rgb(0, 0, 255);
+    transition: 1s;
+    
+}
+
+  /* Question */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .mainBox {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid black; 
+    margin-top: 60px;
+    padding: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .header {
+    width: 100%;
+   
+  }
+  .body {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+     margin-top: 30px;
+  }
+  .body li {
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #bdc3c7 ;
+    list-style: none;
+  }
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .bottom button {
+    background-color: #c2c2c2 ;
+    padding: 8px;
+    border: none;
+  }
+  
+  .hide {
+    display: none;
+    background-color: rgb(52, 52, 255);
+  }
+  .show {
+    display: block;
+  }
+  
+  .disabled {
+    pointer-events: none;
+  }
+  
+  .success{
+      background-color: rgb(24, 8, 247);
+  }
+  
+  
+  .wrong{
+      background-color: rgb(138, 0, 0);
+  }
